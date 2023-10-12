@@ -5,10 +5,10 @@ tls:
 obfs:
   type: salamander
   salamander:
-    password: iSegaro
+    password: Amir
 auth:
   type: password
-  password: iSegaro
+  password: Amir
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
@@ -24,7 +24,7 @@ ignoreClientBandwidth: false
 disableUDP: false
 udpIdleTimeout: 60s
 resolver:
-  type: udp
+  type: tls
   tcp:
     addr: 8.8.8.8:53
     timeout: 4s
